@@ -1,0 +1,60 @@
+* {
+   
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+header{
+    background-color: yellowgreen;
+    display: flex;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+#logo{
+    margin: auto;
+    font-size: 30px;
+}
+header li{
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+}
+.service-box{
+    border: 1px solid #eee; 
+    margin: 10px;
+}
+ #main{
+    display: flex;
+} 
+
+aside{
+    width: 700px;
+    background: #eee;
+}
+aside ul li{
+    margin-top: 15px;
+}
+.service-img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  aside ul{
+    list-style: none;
+  }
+  footer{
+    padding: 10px;
+    background-color: yellowgreen;
+    text-align: center;
+
+  }
+
